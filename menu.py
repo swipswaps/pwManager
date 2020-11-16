@@ -32,7 +32,7 @@ def create():
    store_passwords(passw, user_email, username, url, app_name)
 
 def find():
-   print('Please proivide the name of the site or app you want to find the password to')
+   print('Please provide the name of the site or app you want to find the password to')
    app_name = input()
    find_password(app_name)
 
